@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF001001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FR001001 /* AppDelegate.m */; };
+		BF001002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001002 /* SceneDelegate.swift */; };
+		BF001003 /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FR001003 /* ContactListViewController.m */; };
+		BF001004 /* ContactListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FR001004 /* ContactListViewModel.m */; };
+		BF001005 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FR001005 /* ContactTableViewCell.m */; };
+		BF001006 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001006 /* Contact.swift */; };
+		BF001007 /* ContactFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001007 /* ContactFilter.swift */; };
+		BF001008 /* ContactValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001008 /* ContactValidator.swift */; };
+		BF001009 /* ImageAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001009 /* ImageAPIService.swift */; };
+		BF001010 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001010 /* ContactRepository.swift */; };
+		BF001011 /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001011 /* AddContactViewModel.swift */; };
+		BF001012 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001012 /* AddContactView.swift */; };
+		BF001013 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001013 /* AddContactViewController.swift */; };
+		BF001014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR001014 /* Assets.xcassets */; };
+		BF001015 /* ContactFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001015 /* ContactFilterTests.swift */; };
+		BF001016 /* ContactFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR001016 /* ContactFlowUITests.swift */; };
+		BF001017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FR001026 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CP001001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = PR001001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = TG001002;
+			remoteInfo = ContactosApp;
+		};
+		CP001002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = PR001001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = TG001002;
+			remoteInfo = ContactosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FR001001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FR001002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FR001003 /* ContactListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
+		FR001004 /* ContactListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactListViewModel.m; sourceTree = "<group>"; };
+		FR001005 /* ContactTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		FR001006 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FR001007 /* ContactFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFilter.swift; sourceTree = "<group>"; };
+		FR001008 /* ContactValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactValidator.swift; sourceTree = "<group>"; };
+		FR001009 /* ImageAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIService.swift; sourceTree = "<group>"; };
+		FR001010 /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		FR001011 /* AddContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
+		FR001012 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		FR001013 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		FR001014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FR001015 /* ContactFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFilterTests.swift; sourceTree = "<group>"; };
+		FR001016 /* ContactFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFlowUITests.swift; sourceTree = "<group>"; };
+		FR001017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FR001018 /* ContactListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactListViewController.h; sourceTree = "<group>"; };
+		FR001019 /* ContactListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactListViewModel.h; sourceTree = "<group>"; };
+		FR001020 /* ContactTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		FR001021 /* ContactosApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactosApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FR001022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR001023 /* ContactosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR001024 /* ContactosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR001025 /* ContactosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR001026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FW001001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FW001002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FW001003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GR001001 = {
+			isa = PBXGroup;
+			children = (
+				GR001002 /* ContactosApp */,
+				GR001003 /* ContactosAppTests */,
+				GR001004 /* ContactosAppUITests */,
+				GR001005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GR001002 /* ContactosApp */ = {
+			isa = PBXGroup;
+			children = (
+				GR001006 /* App */,
+				GR001007 /* List */,
+				GR001008 /* Add */,
+				GR001009 /* Core */,
+				GR001010 /* Resources */,
+				FR001021 /* ContactosApp-Bridging-Header.h */,
+				FR001022 /* Info.plist */,
+			);
+			path = ContactosApp;
+			sourceTree = "<group>";
+		};
+		GR001003 /* ContactosAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FR001015 /* ContactFilterTests.swift */,
+			);
+			path = ContactosAppTests;
+			sourceTree = "<group>";
+		};
+		GR001004 /* ContactosAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FR001016 /* ContactFlowUITests.swift */,
+			);
+			path = ContactosAppUITests;
+			sourceTree = "<group>";
+		};
+		GR001005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FR001023 /* ContactosApp.app */,
+				FR001024 /* ContactosAppTests.xctest */,
+				FR001025 /* ContactosAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GR001006 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FR001017 /* AppDelegate.h */,
+				FR001001 /* AppDelegate.m */,
+				FR001026 /* main.m */,
+				FR001002 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		GR001007 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FR001018 /* ContactListViewController.h */,
+				FR001003 /* ContactListViewController.m */,
+				FR001019 /* ContactListViewModel.h */,
+				FR001004 /* ContactListViewModel.m */,
+				FR001020 /* ContactTableViewCell.h */,
+				FR001005 /* ContactTableViewCell.m */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		GR001008 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				FR001012 /* AddContactView.swift */,
+				FR001011 /* AddContactViewModel.swift */,
+				FR001013 /* AddContactViewController.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		GR001009 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				GR001011 /* Models */,
+				GR001012 /* Services */,
+				GR001013 /* Repository */,
+				GR001014 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		GR001010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FR001014 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		GR001011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FR001006 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GR001012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FR001009 /* ImageAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		GR001013 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FR001010 /* ContactRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		GR001014 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FR001007 /* ContactFilter.swift */,
+				FR001008 /* ContactValidator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TG001002 /* ContactosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL001001 /* Build configuration list for PBXNativeTarget "ContactosApp" */;
+			buildPhases = (
+				SP001001 /* Sources */,
+				FW001001 /* Frameworks */,
+				RS001001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactosApp;
+			productName = ContactosApp;
+			productReference = FR001023 /* ContactosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		TG001003 /* ContactosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL001002 /* Build configuration list for PBXNativeTarget "ContactosAppTests" */;
+			buildPhases = (
+				SP001002 /* Sources */,
+				FW001002 /* Frameworks */,
+				RS001002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DP001001 /* PBXTargetDependency */,
+			);
+			name = ContactosAppTests;
+			productName = ContactosAppTests;
+			productReference = FR001024 /* ContactosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		TG001004 /* ContactosAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL001003 /* Build configuration list for PBXNativeTarget "ContactosAppUITests" */;
+			buildPhases = (
+				SP001003 /* Sources */,
+				FW001003 /* Frameworks */,
+				RS001003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DP001002 /* PBXTargetDependency */,
+			);
+			name = ContactosAppUITests;
+			productName = ContactosAppUITests;
+			productReference = FR001025 /* ContactosAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PR001001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					TG001002 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					TG001003 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = TG001002;
+					};
+					TG001004 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = TG001002;
+					};
+				};
+			};
+			buildConfigurationList = CL001004 /* Build configuration list for PBXProject "ContactosApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = GR001001;
+			productRefGroup = GR001005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TG001002 /* ContactosApp */,
+				TG001003 /* ContactosAppTests */,
+				TG001004 /* ContactosAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RS001001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF001014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		RS001002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		RS001003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SP001001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF001001 /* AppDelegate.m in Sources */,
+				BF001017 /* main.m in Sources */,
+				BF001002 /* SceneDelegate.swift in Sources */,
+				BF001003 /* ContactListViewController.m in Sources */,
+				BF001004 /* ContactListViewModel.m in Sources */,
+				BF001005 /* ContactTableViewCell.m in Sources */,
+				BF001006 /* Contact.swift in Sources */,
+				BF001007 /* ContactFilter.swift in Sources */,
+				BF001008 /* ContactValidator.swift in Sources */,
+				BF001009 /* ImageAPIService.swift in Sources */,
+				BF001010 /* ContactRepository.swift in Sources */,
+				BF001011 /* AddContactViewModel.swift in Sources */,
+				BF001012 /* AddContactView.swift in Sources */,
+				BF001013 /* AddContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		SP001002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF001015 /* ContactFilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		SP001003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF001016 /* ContactFlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DP001001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = TG001002 /* ContactosApp */;
+			targetProxy = CP001001 /* PBXContainerItemProxy */;
+		};
+		DP001002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = TG001002 /* ContactosApp */;
+			targetProxy = CP001002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC001001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC001002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC001003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ContactosApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = com.contactos.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactosApp/ContactosApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC001004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ContactosApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = com.contactos.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactosApp/ContactosApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC001005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contactos.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactosApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactosApp";
+			};
+			name = Debug;
+		};
+		BC001006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contactos.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactosApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactosApp";
+			};
+			name = Release;
+		};
+		BC001007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contactos.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactosApp;
+			};
+			name = Debug;
+		};
+		BC001008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contactos.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CL001001 /* Build configuration list for PBXNativeTarget "ContactosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC001003 /* Debug */,
+				BC001004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CL001002 /* Build configuration list for PBXNativeTarget "ContactosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC001005 /* Debug */,
+				BC001006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CL001003 /* Build configuration list for PBXNativeTarget "ContactosAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC001007 /* Debug */,
+				BC001008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CL001004 /* Build configuration list for PBXProject "ContactosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC001001 /* Debug */,
+				BC001002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PR001001 /* Project object */;
+}
